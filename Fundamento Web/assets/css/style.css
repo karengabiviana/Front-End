@@ -1,0 +1,53 @@
+/*Estilos da Página index.html*/
+*{
+    padding: 0%;
+}
+
+ .center{
+     text-align: center;
+ } 
+
+.container { /* Layout com flexbox - texto com foto */ 
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu li{ /* Menu da página - inline e padding */ 
+    display: inline;
+    padding: 2%;
+}
+
+#menu li a{ /* Menu da página - texto */ 
+    text-decoration: none;
+    color: blue;
+    font-size: 20px;
+}
+
+#menu li a:hover { /*Menu da página - hover */
+    color: pink;
+}
+
+.pad-2{ /* Padding 2% */
+    padding: 2%;
+}
+
+.br-100{ /* Arredondamento e tamanho da foto */
+    width: 85%;
+    border-radius: 100%;
+}
+
+.tm-social{/* Tamanho ícones Rede Social*/
+    height: 24px;
+    padding: 8px;
+}
+
+/*Estilos da Página contato.html*/
+
+.container-around{ /*Layout com flexbox - formulário com mapas*/
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+}
