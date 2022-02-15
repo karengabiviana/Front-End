@@ -68,24 +68,24 @@ function validaAssunto()
 
 function enviar()
 {
-    if(nomeOk==true && emailOk==true && assuntoOk==true)
+    if(nomeOk == true && emailOk == true && assuntoOk == true)
     {
-        alert= "Formulário enviado com Sucesso!"
+        alert("Seu formulário foi enviado com sucesso!")
     }
     else
     {
-        alert="Preencha o formulário corretamente"
+        alert("Preencha o formulário corretamente!")
     }
 }
 
-function mapaZoom()
+function mapaOp()
 {
-    mapa.style.width= "800px"
-    mapa.style.high= "400px"
+    mapa.style.opacity="35%"
+    mapa.style.transition="0.3s"
 }
 
 function mapaNormal()
 {
-    mapa.style.width= "400px"
-    mapa.style.high= "250px"
+    mapa.style.opacity="1"
+    mapa.style.transition="1"
 }
